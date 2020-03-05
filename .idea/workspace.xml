@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30000c9-f4d1-48ad-997a-31d6a7ea7c46" name="Default Changelist" comment="" />
+    <list default="true" id="e30000c9-f4d1-48ad-997a-31d6a7ea7c46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/clone/DeepEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/ArticleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenuRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/BaseMenuRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/BubbleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/CourseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenuRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/MenuRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenuRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionsAnswerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hzw/decorator/StoreMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hzw/CloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hzw/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,80 +38,15 @@
     </execution>
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/BaseMenuRoute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyInvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/SingerBroker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/ZhangJie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/ProxyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="337">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +55,180 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/Singer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/ArticleMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionsAnswerMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/MenuRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/StoreMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/DecoratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.hzw.decorator.ArticleMenu">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.hzw.decorator.ArticleMenu</OriginalElement>
+              <nodes>
+                <node x="534.0" y="97.0">com.hzw.decorator.CourseMenu</node>
+                <node x="646.0" y="246.0">com.hzw.decorator.AssignmentMenuRoute</node>
+                <node x="1004.0" y="97.0">com.hzw.decorator.QuestionRepertoryMenu</node>
+                <node x="154.0" y="97.0">com.hzw.decorator.GrowWallMenu</node>
+                <node x="1238.0" y="97.0">com.hzw.decorator.StoreMenu</node>
+                <node x="680.0" y="97.0">com.hzw.decorator.AssignmentMenu</node>
+                <node x="476.0" y="246.0">com.hzw.decorator.BaseMenuRoute</node>
+                <node x="639.0" y="0.0">com.hzw.decorator.Menu</node>
+                <node x="399.0" y="169.0">com.hzw.decorator.MenuRoute</node>
+                <node x="858.0" y="97.0">com.hzw.decorator.BubbleMenu</node>
+                <node x="274.0" y="246.0">com.hzw.decorator.GrowWallMenuRoute</node>
+                <node x="0.0" y="246.0">com.hzw.decorator.QuestionRepertoryMenuRoute</node>
+                <node x="316.0" y="97.0">com.hzw.decorator.QuestionsAnswerMenu</node>
+                <node x="0.0" y="97.0">com.hzw.decorator.ArticleMenu</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.hzw.decorator.StoreMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="1297.0" y="47.0" />
+                  <point x="712.125" y="47.0" />
+                  <point x="34.125" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.AssignmentMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="759.0" y="77.0" />
+                  <point x="682.875" y="77.0" />
+                  <point x="4.875" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.QuestionRepertoryMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="1111.0" y="57.0" />
+                  <point x="702.375" y="57.0" />
+                  <point x="24.375" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.AssignmentMenuRoute" target="com.hzw.decorator.MenuRoute">
+                  <point x="0.0" y="-13.5" />
+                  <point x="745.0" y="216.0" />
+                  <point x="502.25" y="216.0" />
+                  <point x="44.25" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.ArticleMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="67.0" y="47.0" />
+                  <point x="643.875" y="47.0" />
+                  <point x="-34.125" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.GrowWallMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="225.0" y="57.0" />
+                  <point x="653.625" y="57.0" />
+                  <point x="-24.375" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.QuestionsAnswerMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="415.0" y="67.0" />
+                  <point x="663.375" y="67.0" />
+                  <point x="-14.625" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.CourseMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="597.0" y="77.0" />
+                  <point x="673.125" y="77.0" />
+                  <point x="-4.875" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.BubbleMenu" target="com.hzw.decorator.Menu">
+                  <point x="0.0" y="-13.5" />
+                  <point x="921.0" y="67.0" />
+                  <point x="692.625" y="67.0" />
+                  <point x="14.625" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.BaseMenuRoute" target="com.hzw.decorator.MenuRoute">
+                  <point x="0.0" y="-13.5" />
+                  <point x="551.0" y="226.0" />
+                  <point x="472.75" y="226.0" />
+                  <point x="14.75" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.GrowWallMenuRoute" target="com.hzw.decorator.MenuRoute">
+                  <point x="0.0" y="-13.5" />
+                  <point x="365.0" y="226.0" />
+                  <point x="443.25" y="226.0" />
+                  <point x="-14.75" y="13.5" />
+                </edge>
+                <edge source="com.hzw.decorator.QuestionRepertoryMenuRoute" target="com.hzw.decorator.MenuRoute">
+                  <point x="0.0" y="-13.5" />
+                  <point x="127.0" y="216.0" />
+                  <point x="413.75" y="216.0" />
+                  <point x="-44.25" y="13.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7863372093023255" x="285.21256931608133" y="165.21256931608133" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenuRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenuRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,6 +238,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -122,6 +250,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,14 +266,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hzw/proxy/$Proxy0.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hzw/ProxyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyProxy.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hzw/CloneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/clone/DeepEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/BaseMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/ArticleMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/BubbleMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/CourseMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/StoreMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenuRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/MenuRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenuRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenuRoute.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hzw/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hzw/decorator/BaseMenuRoute.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="49" />
+    <option name="x" value="55" />
+    <option name="y" value="25" />
     <option name="width" value="1404" />
-    <option name="height" value="803" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,7 +343,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hzw" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
@@ -214,27 +366,84 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hzw" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.10.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-pattern-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.10.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="databind" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hzw/proxy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diagrams" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzw.decorator" />
       <recent name="com.hzw" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -253,9 +462,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DecoratorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzw.CloneTest" />
+      <module name="design-pattern-2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzw.DecoratorTest" />
+      <module name="design-pattern-2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,6 +544,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorTest" />
+        <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.ProxyTest" />
       </list>
     </recent_temporary>
@@ -321,56 +560,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583138762137</updated>
-      <workItem from="1583138768371" duration="727000" />
+      <workItem from="1583138768371" duration="1692000" />
+      <workItem from="1583201216701" duration="2746000" />
+      <workItem from="1583388014524" duration="4843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="727000" />
+    <option name="totallyTimeSpent" value="9281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="49" width="1404" height="803" extended-state="0" />
+    <frame x="55" y="25" width="1404" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info id="Job Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Messages" weight="0.32944608" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="MyBatis Log" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Job Explorer" order="8" />
+      <window_info id="Image Layers" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1793003" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39941692" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1028169" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32944608" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="MyBatis Log" order="11" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32944608" />
+      <window_info anchor="bottom" id="Console" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="18" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,10 +635,35 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hzw/CloneTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/$Proxy0.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -412,18 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/SingerBroker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -434,20 +692,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/$Proxy0.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#621#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1513">
+          <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/SingerBroker.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="493">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzw.clone.DeepEntity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzw.clone.DeepEntity</OriginalElement>
+          <nodes>
+            <node x="162.0" y="0.0">java.lang.Cloneable</node>
+            <node x="35.0" y="77.0">com.hzw.clone.DeepEntity</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzw.clone.DeepEntity" target="java.io.Serializable">
+              <point x="-55.5" y="-68.5" />
+              <point x="90.5" y="52.0" />
+              <point x="71.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.hzw.clone.DeepEntity" target="java.lang.Cloneable">
+              <point x="55.5" y="-68.5" />
+              <point x="201.5" y="52.0" />
+              <point x="221.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="107.0" />
+          <SelectedNodes>
+            <node>com.hzw.clone.DeepEntity</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -458,20 +781,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/ProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/clone/DeepEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="158">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/proxy/MyProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/CourseMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/BubbleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/CloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionRepertoryMenuRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/GrowWallMenuRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/StoreMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.hzw.decorator.ArticleMenu">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.hzw.decorator.ArticleMenu</OriginalElement>
+          <nodes>
+            <node x="534.0" y="97.0">com.hzw.decorator.CourseMenu</node>
+            <node x="646.0" y="246.0">com.hzw.decorator.AssignmentMenuRoute</node>
+            <node x="1004.0" y="97.0">com.hzw.decorator.QuestionRepertoryMenu</node>
+            <node x="154.0" y="97.0">com.hzw.decorator.GrowWallMenu</node>
+            <node x="1238.0" y="97.0">com.hzw.decorator.StoreMenu</node>
+            <node x="680.0" y="97.0">com.hzw.decorator.AssignmentMenu</node>
+            <node x="476.0" y="246.0">com.hzw.decorator.BaseMenuRoute</node>
+            <node x="639.0" y="0.0">com.hzw.decorator.Menu</node>
+            <node x="399.0" y="169.0">com.hzw.decorator.MenuRoute</node>
+            <node x="858.0" y="97.0">com.hzw.decorator.BubbleMenu</node>
+            <node x="274.0" y="246.0">com.hzw.decorator.GrowWallMenuRoute</node>
+            <node x="0.0" y="246.0">com.hzw.decorator.QuestionRepertoryMenuRoute</node>
+            <node x="316.0" y="97.0">com.hzw.decorator.QuestionsAnswerMenu</node>
+            <node x="0.0" y="97.0">com.hzw.decorator.ArticleMenu</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.hzw.decorator.StoreMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="1297.0" y="47.0" />
+              <point x="712.125" y="47.0" />
+              <point x="34.125" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.AssignmentMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="759.0" y="77.0" />
+              <point x="682.875" y="77.0" />
+              <point x="4.875" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.QuestionRepertoryMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="1111.0" y="57.0" />
+              <point x="702.375" y="57.0" />
+              <point x="24.375" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.AssignmentMenuRoute" target="com.hzw.decorator.MenuRoute">
+              <point x="0.0" y="-13.5" />
+              <point x="745.0" y="216.0" />
+              <point x="502.25" y="216.0" />
+              <point x="44.25" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.ArticleMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="67.0" y="47.0" />
+              <point x="643.875" y="47.0" />
+              <point x="-34.125" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.GrowWallMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="225.0" y="57.0" />
+              <point x="653.625" y="57.0" />
+              <point x="-24.375" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.QuestionsAnswerMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="415.0" y="67.0" />
+              <point x="663.375" y="67.0" />
+              <point x="-14.625" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.CourseMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="597.0" y="77.0" />
+              <point x="673.125" y="77.0" />
+              <point x="-4.875" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.BubbleMenu" target="com.hzw.decorator.Menu">
+              <point x="0.0" y="-13.5" />
+              <point x="921.0" y="67.0" />
+              <point x="692.625" y="67.0" />
+              <point x="14.625" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.BaseMenuRoute" target="com.hzw.decorator.MenuRoute">
+              <point x="0.0" y="-13.5" />
+              <point x="551.0" y="226.0" />
+              <point x="472.75" y="226.0" />
+              <point x="14.75" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.GrowWallMenuRoute" target="com.hzw.decorator.MenuRoute">
+              <point x="0.0" y="-13.5" />
+              <point x="365.0" y="226.0" />
+              <point x="443.25" y="226.0" />
+              <point x="-14.75" y="13.5" />
+            </edge>
+            <edge source="com.hzw.decorator.QuestionRepertoryMenuRoute" target="com.hzw.decorator.MenuRoute">
+              <point x="0.0" y="-13.5" />
+              <point x="127.0" y="216.0" />
+              <point x="413.75" y="216.0" />
+              <point x="-44.25" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7863372093023255" x="285.21256931608133" y="165.21256931608133" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/MenuRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/BaseMenuRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/AssignmentMenuRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/ArticleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hzw/decorator/QuestionsAnswerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hzw/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
